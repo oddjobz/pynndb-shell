@@ -9,6 +9,9 @@ verify_ssl = true
 ujson = "*"
 cmd2 = "*"
 pynndb = "*"
+termcolor = "*"
+ascii-graph = "*"
+pygments = "*"
 
 [requires]
 python_version = "3.6"

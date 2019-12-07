@@ -1,7 +1,7 @@
 import os
 import codecs
 import re
-from setuptools import setup
+from setuptools import setup, find_packages
 from pipenv.project import Project
 from pipenv.utils import convert_deps_to_pip
 
@@ -26,9 +26,9 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 setup(
-    name='pynndb-cli',
+    name='pynndb_shell',
     version=find_version("pynndb_shell", "__init__.py"),
-    packages=['pynndb_shell'],
+    packages=["pynndb_shell"],
     url='https://github.com/oddjobz/pynndb-cli',
     license='MIT',
     author='Gareth Bult',
@@ -47,7 +47,8 @@ setup(
     test_requires=test_requirements,
     data_files=[('', ['Pipfile'])],
     entry_points={
-    'console_scripts': [
-        'pynndb = pynndb_shell.__init__:main'
-    ]
-})
+        'console_scripts': [
+            'pynndb = pynndb_shell.__init__:main'
+        ]
+    }
+)
