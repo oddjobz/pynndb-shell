@@ -12,6 +12,7 @@ pynndb = "*"
 termcolor = "*"
 ascii-graph = "*"
 pygments = "*"
+pipenv = "*"
 
 [requires]
 python_version = "3.6"
