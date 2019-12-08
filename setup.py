@@ -41,7 +41,7 @@ setup(
     name='pynndb_shell',
     version=find_version("pynndb_shell", "__init__.py"),
     packages=["pynndb_shell"],
-    url='https://github.com/oddjobz/pynndb-cli',
+    url='https://github.com/oddjobz/pynndb-shell',
     license='MIT',
     author='Gareth Bult',
     author_email='oddjobz@linux.co.uk',

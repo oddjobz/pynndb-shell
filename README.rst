@@ -7,5 +7,5 @@ This is the command line interface for <PyNNDB__>.
 
 * Docs [pynndb_ docs are here]
 
-.. _pynndb: docs/shell.md
+.. _pynndb: https://github.com/oddjobz/pynndb-cli/blob/master/docs/shell.md
 
