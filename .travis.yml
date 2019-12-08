@@ -8,15 +8,15 @@ install:
 - pip install --force-reinstall -U "pip<19"
 matrix:
   include:
-  - python: "3.6"
+  - python: '3.6'
     env: TENV=py36
-  - python: "pypy3"
+  - python: pypy3
     env: TENV=pypy3
 deploy:
   provider: pypi
-  user: "__token__"
+  user: __token__
   skip_existing: true
   on:
     branch: master
   password:
-    secure: LfuJ+1W9v1jIajSyh3MEOwbeXqs7q4UWUoTCcGO3FiAKhSt2TNpSTsTwB0sI25fAiRc970C/R7ftqi7ihwbhIaKmkWTIIwjJ7vyGZ3X6mhgDWafO0EwvK7CT/t6v68qQCIwZUfvgBHrgq9Cmc1jF7BYa5kxG9hcZKznHXJgUUkeUS1JNT58xalVg6yeyq9xBPq6LpwhJVWCFmUKLlpxPy4cWqhU1aY2Y/65xBN8LZ9Oj80ieyCLZA/54mmJSRCQSBwvkZJK2AnuSReVLVcHXfT02/LCNCnmsFOIuMt0a9hHuXdwEb68iBacgRh8R7S5diWi3gVJQOqk7d+IE8mhqM7otnwAKn2rs/GDKAVXc7NAerG5uhm7cxzPbFOkX4ag2sjY7po3NlzXg76QbRsNZjnJYBGyzUPOG7d/kJMuEf/osQOZIra30lUMJRMT5woAsaqgukJH399GFLVD0ithp0GhtZwG5FdUIcTTlysJAeP/iDl8zw8brW1ug5nYJEuu5p8GEyqqjs3d26KnwA1gP4fVAxIK9MLRTLGt67QskS45y9pnIzDu53JOpw86D43S7rwv5msQN4kPk3I0b4io/n2YGEaDDNPdP
+    secure: UInJTwXljV1YUGADa1B2DZrGsYmWGeRdLIlQ8cHp5WDqyXdwrvYzAGb1o0WXrBXSkEJ4SUlWcPsammgYoUWw6Js2I0kVpY0mP/pyjxu510+gn8s0JF/A6TFQ4p3O366s3rnCFObCFg1jGD8vd2g+RKwavephhJv9EYCBDMeyYCe1mfadbobo5X3Cu9uAB7gdpYADNXuyHAmLQx5C/LHzOI9p+sJVO7r1Ihz6jtyij3rQzKgNKDsrRNUv5GnLsddcBvCmKuwvRz+mKV3J71FE8XpzyMIarPI0LznNYE3fRa7VuXf3ZEm+HJq/OZGV60hUFtmfu4TVJLDMZB0rYftE9LPWvzSLBpacPx0sWncFd2I/ft/Ud6DPH+qSu/8LxLG6acQF5zpMhK0ZSdJDngJ8spEhVw22w69nSTHNQsF06iv6sUoLxH14HfOF4rSb0VM9Rt2mTPNWbmcMcG4P6dYoJLGXVZAQNCOPWOrLYX6M+9SU9pvQ3JsKbivyF33OypgrnBlrsUsK6aPPXM2SwMM3LcxW2IWSdQb+/ss3CTsYpfiYEUSrL1rYeMPu4I1yJDEmdiqvopDU4ZNt3ufJu8os8sEJhEflNFIZQs1qRGie3CsO7Fpe9IL6rhkDLJNeZf1VOt1HvEdtm4sC20XfWq+QoEItHAaYiUjH/c98Fuqnwls=
