@@ -14,7 +14,7 @@ matrix:
     env: TENV=pypy3
 deploy:
   provider: pypi
-  user: "oddjobz"
+  user: "__token__"
   skip_existing: true
   on:
     branch: master
