@@ -38,7 +38,7 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 setup(
-    name='pynndb_shell',
+    name='pynndb-shell',
     version=find_version("pynndb_shell", "__init__.py"),
     packages=["pynndb_shell"],
     url='https://github.com/oddjobz/pynndb-shell',
