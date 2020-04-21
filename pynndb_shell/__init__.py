@@ -38,7 +38,7 @@ from ascii_graph import Pyasciigraph
 from pygments import highlight, lexers, formatters
 from termcolor import colored
 
-__version__ = '1.0.7'
+__version__ = '1.0.8'
 
 # TODO: add a command to adjust the mapsize
 # TODO: unique without an index
