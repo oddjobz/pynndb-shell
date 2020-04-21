@@ -9,3 +9,4 @@ This is the command line interface for <PyNNDB__>.
 
 .. _pynndb: https://github.com/oddjobz/pynndb-shell/blob/master/docs/shell.md
 
+Force test
