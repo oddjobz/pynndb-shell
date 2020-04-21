@@ -29,7 +29,7 @@ import readline
 from os import listdir
 from datetime import datetime
 from ujson import loads, dumps
-from cmd2 import Cmd, with_argparser
+from cmd2 import Cmd, with_argparser, Settable
 from argparse import ArgumentParser
 from pynndb import Database
 from pathlib import Path, PosixPath
@@ -189,7 +189,8 @@ class App(Cmd):
             self.pfeedback('error: unable to open configuration folder')
             exit(1)
 
-        self.settable.update({'limit': 'The maximum number of records to return'})
+        # self.settable.update({'limit': 'The maximum number of records to return'})
+        self.add_settable(Settable('limit', int, 'The maximum number of records to return'))
         self.prompt = self._default_prompt
 
         self.do_shell = None
